@@ -21,7 +21,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-static-top">
       <div class="container">
         <a class="navbar-brand" href="#">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,6 @@
     <section class="contact bg-light">
       <br>
       <br>
-      <br>
       <div class="container">
         <h1>Get In Touch</h1>
         <br>
@@ -81,15 +80,15 @@
             <form>
               <div class="form-group col-lg-10 col-md-6 mb-4">
                 <label for="text">Your Name</label>
-                <input type="text" class="form-control" id="text">
+                <input type="text" class="form-control" id="text" placeholder="Jane Doe">
               </div>
               <div class="form-group col-lg-10 col-md-6 mb-4">
                 <label for="email">Your Email</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" placeholder="email@example.com">
               </div>
               <div class="form-group col-lg-10 col-md-6 mb-4">
                 <label for="comment">Your Message</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <textarea class="form-control" rows="5" id="comment" placeholder="Example text..."></textarea>
               </div>
               <div class="clearfix col-lg-10 col-md-6 mb-4">
                 <a class="btn btn-primary float-right" href="#">Submit</a>
@@ -97,75 +96,74 @@
             </form>
             <br>
             <br>
-            <form>
-              <div class="form-group col-lg-10 col-md-6 mb-4">
-                <label for="text">Subscribe to our newsletter to be kept informed about our conservation work and
-                  how you can help such as fundraising, campaigning and events.
-                  You can unsubscribe at any time.</label>
-                <input type="text" class="form-control" id="text">
+            <div class="mb-3 col-md-10">
+              <h6><strong>Subscribe to our newsletter</strong> to be kept informed about our conservation work and
+                how you can help such as fundraising, campaigning and events.
+                You can unsubscribe at any time.</h6>
+            </div>
+            <form class="form-inline">
+              <div class="form-group mx-sm-3 mb-4">
+                <label for="inputPassword2" class="sr-only">Email</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="email@example.com">
               </div>
-              <div class="clearfix col-lg-10 col-md-6 mb-4">
-                <button class="btn btn-primary float-right" href="#">Sign Up</button>
-              </div>
+              <button type="submit" class="btn btn-primary mb-4">Sign Up</button>
             </form>
-
-
           </div>
         </div>
-
         </div>
 
 
-
-
-
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+        <!-- Footer -->
+        <footer class="py-5 bg-dark" style="fixed-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                  <li class="list-inline-item">
+                    <a href="#">About</a>
+                  </li>
+                  <li class="list-inline-item">&sdot;</li>
+                  <li class="list-inline-item">
+                    <a href="#">Contact</a>
+                  </li>
+                  <li class="list-inline-item">&sdot;</li>
+                  <li class="list-inline-item">
+                    <a href="#">Terms of Use</a>
+                  </li>
+                  <li class="list-inline-item">&sdot;</li>
+                  <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+              </div>
+              <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item mr-3">
+                    <a href="#">
+                      <img class="img-fluid" src="img/facebook.png" alt="">
+                    </a>
+                  </li>
+                  <li class="list-inline-item mr-3">
+                    <a href="#">
+                      <img class="img-fluid" src="img/twitter.png" alt="">
+                    </a>
+                  </li>
+                  <li class="list-inline-item mr-3">
+                    <a href="#">
+                      <img class="img-fluid" src="img/instagram.png" alt="">
+                    </a>
+                  </li>
+                  <li class="list-inline-item mr-3">
+                    <a href="#">
+                      <img class="img-fluid" src="img/google+.png" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <img class="img-fluid" src="img/facebook.png" alt="">
-                </a>
-              </li>
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <img class="img-fluid" src="img/twitter.png" alt="">
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <img class="img-fluid" src="img/instagram.png" alt="">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+        </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
