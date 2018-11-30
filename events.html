@@ -12,10 +12,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/half-slider.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/calendar.css">
 
   </head>
 
@@ -44,7 +44,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Donate</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
@@ -54,76 +54,99 @@
 
 
 <!--Calendar-->
-<div class="container">
+<section class="contact bg-light">
   <br>
   <br>
-
-  <h1>Event Calendar</h1>
-  <br>
-  <div class="row">
-    <div class="col-md-7">
-      <p class="text-left">A calendar of our upcoming events</p>
-         <br>
+  <div class="container">
+    <h1>A Calendar of our Upcoming Events</h1>
+    <br>
+    <div class="row">
+      <div class="col-md-7">
+        <p class="text-left">If you have a query regarding adopting an animal, membership, donating to AnimalShelter,
+          knowing of an animal in need or any query about the work we do,
+           please speak to our Supporter Care Team 7 days a week 8am - 10pm.</p>
+           <br>
+       </div>
      </div>
-   </div>
 
-<div class="month">
-<ul>
-  <li class="prev">&#10094;</li>
-  <li class="next">&#10095;</li>
-  <li>
-    December<br>
-    <span style="font-size:18px">2018</span>
-  </li>
-</ul>
+
+  <div class="agenda">
+      <div class="table-responsive">
+          <table class="table table-condensed table-bordered">
+              <thead>
+                  <tr>
+                      <th>Date</th>
+                      <th>Time</th>
+                      <th>Event</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <!-- Single event in a single day -->
+                  <tr>
+                      <td class="agenda-date" class="active" rowspan="1">
+                          <div class="dayofmonth">26</div>
+                          <div class="dayofweek">Saturday</div>
+                          <div class="shortdate text-muted">July, 2014</div>
+                      </td>
+                      <td class="agenda-time">
+                          5:30 AM
+                      </td>
+                      <td class="agenda-events">
+                          <div class="agenda-event">
+                              <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                              Fishing
+                          </div>
+                      </td>
+                  </tr>
+
+                  <!-- Multiple events in a single day (note the rowspan) -->
+                  <tr>
+                      <td class="agenda-date" class="active" rowspan="3">
+                          <div class="dayofmonth">24</div>
+                          <div class="dayofweek">Thursday</div>
+                          <div class="shortdate text-muted">July, 2014</div>
+                      </td>
+                      <td class="agenda-time">
+                          8:00 - 9:00 AM
+                      </td>
+                      <td class="agenda-events">
+                          <div class="agenda-event">
+                              Doctor's Appointment
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="agenda-time">
+                          10:15 AM - 12:00 PM
+                      </td>
+                      <td class="agenda-events">
+                          <div class="agenda-event">
+                              Meeting with executives
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td class="agenda-time">
+                          7:00 - 9:00 PM
+                      </td>
+                      <td class="agenda-events">
+                          <div class="agenda-event">
+                              Aria's dance recital
+                          </div>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  <div class="clearfix col-lg-12 col-md-6 mb-4">
+    <a class="btn btn-primary float-right" href="#">Previous Events &rarr;</a>
+  </div>
 </div>
-
-<ul class="weekdays">
-<li>Mo</li>
-<li>Tu</li>
-<li>We</li>
-<li>Th</li>
-<li>Fr</li>
-<li>Sa</li>
-<li>Su</li>
-</ul>
-
-<ul class="days">
-<li>1</li>
-<li>2</li>
-<li>3</li>
-<li>4</li>
-<li>5</li>
-<li>6</li>
-<li>7</li>
-<li>8</li>
-<li>9</li>
-<li><span class="active">10</span></li>
-<li>11</li>
-<li>12</li>
-<li>13</li>
-<li>14</li>
-<li>15</li>
-<li>16</li>
-<li>17</li>
-<li>18</li>
-<li>19</li>
-<li>20</li>
-<li>21</li>
-<li>22</li>
-<li>23</li>
-<li>24</li>
-<li>25</li>
-<li>26</li>
-<li>27</li>
-<li>28</li>
-<li>29</li>
-<li>30</li>
-<li>31</li>
-</ul>
-
 <br>
 </div>
+</section>
+
 
 
 
