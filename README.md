@@ -1,4 +1,6 @@
-This project is homework for an educational program on web development I'm participating in. 
+This project was created as homework for educational purposes.
 
-I used and made changes on the template : (https://startbootstrap.com/template-overviews/half-slider/)
+I used various templates from https://startbootstrap.com/
+
+All of the photos were taken from google and I do not own the rights to any of them.
 
